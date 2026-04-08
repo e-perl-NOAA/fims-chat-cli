@@ -1,0 +1,24 @@
+[submodule "fims-packages/fims"]
+	path = fims-packages/fims
+	url = https://github.com/noaa-fims/fims.git
+	branch = main
+[submodule "fims-packages/fims-dev"]
+	path = fims-packages/fims-dev
+	url = https://github.com/noaa-fims/fims.git
+	branch = dev
+[submodule "fims-packages/noaa-fims.github.io"]
+	path = fims-packages/noaa-fims.github.io
+	url = https://github.com/noaa-fims/noaa-fims.github.io.git
+	branch = main
+[submodule "fims-packages/case-studies"]
+	path = fims-packages/case-studies
+	url = https://github.com/noaa-fims/case-studies.git
+	branch = main
+[submodule "fims-packages/FIMSdiags"]
+	path = fims-packages/FIMSdiags
+	url = https://github.com/noaa-fims/FIMSdiags.git
+	branch = main
+[submodule "fims-packages/FIMSRTMB"]
+	path = fims-packages/FIMSRTMB
+	url = https://github.com/noaa-fims/FIMSRTMB.git
+	branch = main
