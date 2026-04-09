@@ -98,13 +98,10 @@ fims-chat-cli/
 
 ## Keeping Packages Updated
 
-This repository automatically updates all FIMS package submodules via GitHub Actions.
+This **repository** automatically updates all FIMS package submodules via GitHub Actions, **but locally you need to make sure the submodules are updated.** There are several options to do this:
+1. Use the `.githooks` that are part of this repository which runs `git submodule update --init --recursive` automatically every time you run `git pull` or use the pull options available to you in VS Code. To do this you need to you need to run `git config core.hooksPath .githooks` in your terminal.
 
-To update locally from the repository as it does this automatically run the following in a terminal opened up where the repo lives:
-
-```bash
-git pull
-```
+2. Run `git pull` or run the pull options available to you in VS Code and then `git submodule update --init --recursive` every time that you open the repository.
 
 ## How It Works
 
