@@ -18,11 +18,15 @@ The key insight: modern coding agents are excellent at navigating repositories t
 
 ### Prerequisites
 - Copilot access on GitHub or via CLI
-    - If using the Copilot CLI:
-    - [Copilot](https://github.com/features/copilot/cli) installed and authenticated:
-    - Git 2.13+ (for submodule support)
+- **IF using the Copilot CLI locally:**
+	- [Copilot](https://github.com/features/copilot/cli) installed and authenticated
+	- Git 2.13+ (for submodule support)
 
-### Clone the Repository
+#### Use in Codespaces
+
+You can create a codespace that already has the Copilot CLI installed and has a post-Create command to update the gitmodules (the FIMS repositories) that Copilot uses as souces. You will still need to authenticate your Copilot license to use the FIMS chat in a codespace.
+
+#### Use by cloning the repository locally
 
 **Important:** You must clone with the `--recursive` flag to download all FIMS packages:
 
