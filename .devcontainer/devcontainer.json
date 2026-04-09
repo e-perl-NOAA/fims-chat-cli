@@ -4,6 +4,5 @@
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
-  "postCreateCommand": "gh extension install github/gh-copilot --force",
   "postStartCommand": "bash -lc 'git pull --ff-only || echo \"git pull failed; continuing with submodule update. Check git status for details.\"; git submodule update --init --recursive'"
 }
