@@ -1,4 +1,4 @@
-name: Update PyHC Package Submodules
+name: Update FIMS Package Submodules
 
 on:
   schedule:
