@@ -91,7 +91,6 @@ You can use this repo as a practical maintenance and development workspace acros
 fims-chat-cli/
 ├── fims-packages/
 │   ├── fims/                    # Core FIMS package (main) and docs
-│   ├── fims-dev/                # Core FIMS package (dev) and docs
 │   ├── noaa-fims.github.io/     # Website and community docs
 │   ├── case-studies/            # Examples and workflows
 │   ├── FIMSdiags/               # Diagnostics tools
