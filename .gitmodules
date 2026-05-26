@@ -2,10 +2,6 @@
 	path = fims-packages/fims
 	url = https://github.com/noaa-fims/fims.git
 	branch = main
-[submodule "fims-packages/fims-dev"]
-	path = fims-packages/fims-dev
-	url = https://github.com/noaa-fims/fims.git
-	branch = dev
 [submodule "fims-packages/noaa-fims.github.io"]
 	path = fims-packages/noaa-fims.github.io
 	url = https://github.com/noaa-fims/noaa-fims.github.io.git
